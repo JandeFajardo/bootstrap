@@ -1,0 +1,58 @@
+/*General CSS*/
+body {
+	background-color: white;
+	padding: 0px;
+	margin: 0px;
+	font-family: 'Lato', sans-serif;
+	font-family: 'Source Sans Pro', sans-serif;
+	font-family: 'Roboto Slab', serif;
+	font-size: 14px; 
+}
+
+.jumbotron, body, html {
+	height: 100%;
+	width: 100%
+}
+
+.jumbotron {
+	background-image: url('image/cover.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100%;
+}
+
+.jumbotron h1, .jumbotron p {
+	color: white;
+}
+
+#prod {
+	display: flex;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	text-align: center;
+	margin-bottom: 10px;
+
+}
+
+.card img {
+	height: 250px;
+}
+
+
+#testi {
+	margin-bottom: 25px;
+	margin-top: 25px;
+}
+
+#testi h5, p {
+	color: black;
+}
+
+.carousel-inner img{
+	margin: 0 auto;
+}
+
+#sign {
+	width: 50%;
+	margin: 0 auto;
+}
